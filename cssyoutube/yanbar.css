@@ -1,3 +1,5 @@
+@media (max-width: 1330.1px){
+
 .yanbar {
   position: fixed;
   left: 0;
@@ -29,4 +31,38 @@
 
 .yanbarlink div {
   font-size: 10px;
+}
+}
+
+@media (min-width: 1330px){
+  .yanbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 200px;
+    z-index: 200;
+    padding-top: 13px;
+  }
+
+  .yanbarlink {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 24px;
+  }
+
+  .yanbarlink:hover {
+  background-color: rgb(235, 235, 235);
+  }
+
+  .yanbarlink img {
+    height: 24px;
+    margin-right: 24px;
+  }
+
+  .yanbarlink div {
+    font-size: 14px;
+  }
 }

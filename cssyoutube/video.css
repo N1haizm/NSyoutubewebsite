@@ -94,6 +94,18 @@
         }
       }
 
+      @media (min-width: 1000px){
+        .Oghuzvideobasliq{
+          font-size: 16px;
+          line-height: 24px;
+        } 
+
+        .OKanalAd, 
+        .Ovideostats {
+          font-size: 14px;
+        }
+      }
+      
       .videovaxt {
         font-size: 13px;
         font-weight: 500;
@@ -111,7 +123,7 @@
         display: flex;
         justify-content: center;
         font-size: 30px;
-        margin-top: 25px;
+        margin-top: 50px;
       }
       
 
